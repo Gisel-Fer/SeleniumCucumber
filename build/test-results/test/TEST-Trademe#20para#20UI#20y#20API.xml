@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Trademe para UI y API" tests="5" skipped="0" failures="5" errors="0" timestamp="2023-05-24T01:21:37" hostname="DESKTOP-16GNS6T" time="46.832">
+  <properties/>
+  <testcase name="As a user, I can see all the car makes on the Make dropdown" classname="Trademe para UI y API" time="15.927">
+    <failure message="java.lang.AssertionError: expected:&lt;79&gt; but was:&lt;1&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;79&gt; but was:&lt;1&gt;
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at steps.TrademeSteps.iCanVerifyThatTheNumberOfCarMakesIs(TrademeSteps.java:22)
+	at ✽.I can verify that the number of car makes is 79(file:///C:/Users/Gise/Documents/CursoUdemy/SeleniumCucumberJava/src/test/resources/features/Trademe.feature:7)
+</failure>
+  </testcase>
+  <testcase name="As a user I can validate that each make has the right amount of cars listed #1" classname="Trademe para UI y API" time="7.034">
+    <failure message="java.lang.UnsupportedOperationException: You may not select an option in disabled select" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: You may not select an option in disabled select
+	at org.openqa.selenium.support.ui.Select.assertSelectIsEnabled(Select.java:332)
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:112)
+	at pages.BasePage.selectFromDropdownbyText(BasePage.java:78)
+	at pages.TrademePage.selectMakeFromDropdown(TrademePage.java:16)
+	at steps.TrademeSteps.iSelectTheCarMakeMake(TrademeSteps.java:27)
+	at ✽.I select the car make Ferrari(file:///C:/Users/Gise/Documents/CursoUdemy/SeleniumCucumberJava/src/test/resources/features/Trademe.feature:12)
+</failure>
+  </testcase>
+  <testcase name="As a user I can validate that each make has the right amount of cars listed #2" classname="Trademe para UI y API" time="6.044">
+    <failure message="java.lang.UnsupportedOperationException: You may not select an option in disabled select" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: You may not select an option in disabled select
+	at org.openqa.selenium.support.ui.Select.assertSelectIsEnabled(Select.java:332)
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:112)
+	at pages.BasePage.selectFromDropdownbyText(BasePage.java:78)
+	at pages.TrademePage.selectMakeFromDropdown(TrademePage.java:16)
+	at steps.TrademeSteps.iSelectTheCarMakeMake(TrademeSteps.java:27)
+	at ✽.I select the car make BMW(file:///C:/Users/Gise/Documents/CursoUdemy/SeleniumCucumberJava/src/test/resources/features/Trademe.feature:12)
+</failure>
+  </testcase>
+  <testcase name="As a user I can validate that each make has the right amount of cars listed #3" classname="Trademe para UI y API" time="10.691">
+    <failure message="java.lang.UnsupportedOperationException: You may not select an option in disabled select" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: You may not select an option in disabled select
+	at org.openqa.selenium.support.ui.Select.assertSelectIsEnabled(Select.java:332)
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:112)
+	at pages.BasePage.selectFromDropdownbyText(BasePage.java:78)
+	at pages.TrademePage.selectMakeFromDropdown(TrademePage.java:16)
+	at steps.TrademeSteps.iSelectTheCarMakeMake(TrademeSteps.java:27)
+	at ✽.I select the car make Mazda(file:///C:/Users/Gise/Documents/CursoUdemy/SeleniumCucumberJava/src/test/resources/features/Trademe.feature:12)
+</failure>
+  </testcase>
+  <testcase name="As a user I can validate that each make has the right amount of cars listed #4" classname="Trademe para UI y API" time="7.136">
+    <failure message="java.lang.UnsupportedOperationException: You may not select an option in disabled select" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: You may not select an option in disabled select
+	at org.openqa.selenium.support.ui.Select.assertSelectIsEnabled(Select.java:332)
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:112)
+	at pages.BasePage.selectFromDropdownbyText(BasePage.java:78)
+	at pages.TrademePage.selectMakeFromDropdown(TrademePage.java:16)
+	at steps.TrademeSteps.iSelectTheCarMakeMake(TrademeSteps.java:27)
+	at ✽.I select the car make Honda(file:///C:/Users/Gise/Documents/CursoUdemy/SeleniumCucumberJava/src/test/resources/features/Trademe.feature:12)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 112.0.5615.49 (bd2a7bcb881c11e8cfe3078709382934e3916914-refs/branch-heads/5615@{#936}) on port 9771
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1684891300.945][WARNING]: This version of ChromeDriver has not been tested with Chrome version 113.
+may. 23, 2023 10:21:41 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 113
+may. 23, 2023 10:21:41 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.7.2` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+</testsuite>

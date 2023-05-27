@@ -3,7 +3,7 @@ pipeline{
     agent any
     //que herramientas vamos a estar instalando al principio
     tools{
-        gradle "Gradle"
+        gradle "Gradle 8.2"
         }
     stages{
         stage("Tareas de limpieza"){

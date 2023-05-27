@@ -12,7 +12,7 @@ import pages.BasePage;
         monochrome = true,
         glue = "steps",
         plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:", "json:target/cucumber-reports.json"},
-        tags = "@TradeMe"
+        tags = "@test"
 )
 public class Runner {
     @AfterClass

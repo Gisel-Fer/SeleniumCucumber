@@ -8,6 +8,7 @@ pipeline{
     stages{
         stage("Tareas de limpieza"){
             steps{
+                echo "Corriendo test en $(Ambiente)"
                 //Agarrar el repo en el que esta el codigo que necesitamos correr
                 git 'https://github.com/Gisel-Fer/SeleniumCucumber.git'
                 //Ejecutar la tarea clean en Gradle

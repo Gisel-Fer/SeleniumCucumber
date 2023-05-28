@@ -14,5 +14,11 @@ pipeline{
                 sh 'gradle clean'
             }
         }
+        stage("Imprimo cositas"){
+            steps{
+                echo "soy un stage aparte"
+            }
+        }
+
     }
 }

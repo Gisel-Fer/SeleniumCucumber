@@ -1,6 +1,6 @@
 
 Feature: Probar la busqueda de google
-@test
+@Test
   Scenario: Buscar algo en google
     Given navego a google
     When busco algo

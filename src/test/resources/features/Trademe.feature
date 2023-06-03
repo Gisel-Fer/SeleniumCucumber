@@ -1,4 +1,4 @@
-@TradeMe
+@TradeMe @Test
 Feature: Trademe para UI y API
 
   #primer escenario: hay que ir a la seccion de autos y devolver la cantidad de marcas que hay en la lista

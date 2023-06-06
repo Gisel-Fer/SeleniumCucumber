@@ -1,6 +1,6 @@
 
 Feature: Probar la busqueda de google
-@Google @Test
+  @Google @Test
   Scenario: Buscar algo en google
     Given navego a google
     When busco algo

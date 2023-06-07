@@ -10,8 +10,8 @@ import pages.BasePage;
 @CucumberOptions(
         features = "src/test/resources/features",
         monochrome = true,
-        glue = "steps",
-        plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:", "json:target/cucumber-reports.json"}
+        glue = "steps"
+
 )
 public class runner {
     @AfterClass
